@@ -1,0 +1,40 @@
+{
+  "manifest_version": 2,
+
+  "name": "Emoji Predictor",
+  "description": "This extension will offer emojis to replace that boring text!",
+  "version": "1.0",
+
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "popup.js"
+            ],"css": [
+                "iframe.css"
+            ],
+
+            "run_at": "document_end"
+        },
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": [
+                "key_handler.js"
+            ],
+            "all_frames": true
+        }
+    ],
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html"
+  },
+  "permissions": [
+   "activeTab"
+   ]
+
+}
