@@ -1,0 +1,13 @@
+
+
+#emoji_frame{
+    position: fixed;
+    top:30px;
+    right:20px;
+    width: 40px;
+    height:27px;
+    background-color: cornflowerblue;
+    color: white;
+    z-index: 999;
+    opacity: 0.5;
+}
