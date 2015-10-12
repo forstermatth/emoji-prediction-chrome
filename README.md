@@ -7,3 +7,4 @@ This is an extension for Chrome that provides emoji predictions. As you type int
 a small popup should appear below the text entry input with a guessed emoji. Then upon pressing the hotkey
 (currently Ctrl + Shft) the emoji will replace the last word.
 
+Please get involved - finding time can be so hard.. and hey, the more the merrier right?! :-)
