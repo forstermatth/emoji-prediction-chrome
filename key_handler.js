@@ -22,7 +22,7 @@ function keyDownTextField(e) {
         if (e.ctrlKey && e.shiftKey && text != "") {
             e.preventDefault();
 
-            ifdiv.getAttribute("role") == "textbox"
+            // ifdiv.getAttribute("role") == "textbox"
             div.value = div.value.trim();
             div.value = div.value.substring(div.value.lastIndexOf(text), (div.value - text.length) );
             div.value += emoji + " ";
